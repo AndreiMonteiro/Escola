@@ -1,0 +1,22 @@
+body{
+    margin: 0em;
+    background-image: url(../img/fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#pag{
+    width: 80%;
+    margin: auto;
+    color: burlywood;
+}
+header{
+    background-color: white;
+    background-image: url(../img/banner.webp);
+    background-size: 100% 100%;
+    color: burlywood;
+    height: 13em;
+    max-width: 100%;
+    padding: 2em;
+    text-align: right;
+}
