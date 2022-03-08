@@ -9,13 +9,25 @@
 </head>
 <body>
     <div id="pag">
-        <header>Topo
-            <h3>LOUIZ VUITTON</h3>
-            <p>Uma grande loja de marca</p>
-        </header>
+        <header></header>
         <nav>Menu</nav>
         <section>Conteúdo</section>
         <footer>Rodapé</footer>
+    </div>
+
+    <div id="popup">
+        <div id="fechar" onclick="fechar()"> X </div>
+        <div id="quadro">
+            <h2>Indentifique-se</h2>
+            <form name="form" method="post">
+                <input type="text"name="login" placeholder="Login" id="login">
+                <input type="password" name="senha" placeholder="Senha" id="senha">
+                <input type="button" value="ok" onclick="entrar()">
+                <p id="msg">Acesso Negado. Cai fora malandro(Feliz dia das mulheres)</p>
+                <a href="#">Não possuo cadastro meu rei</a>
+
+            </form>
+        </div>
     </div>
 </body>
 <script src="js/script.js"></script>

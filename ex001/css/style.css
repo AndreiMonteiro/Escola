@@ -12,11 +12,79 @@ body{
 }
 header{
     background-color: white;
-    background-image: url(../img/banner.webp);
+    background-image: url(../img/maxresdefault.jpg);
     background-size: 100% 100%;
-    color: burlywood;
+    background-repeat: no-repeat;
+    color: rgb(253, 199, 133);
     height: 13em;
     max-width: 100%;
     padding: 2em;
     text-align: right;
+}
+ nav{
+     background-color: rgb(202, 146, 76);
+     color: black;
+     padding: 1em;
+     max-width: 100%;
+ }   
+
+ section{
+    background-color: rgb(173, 135, 84);
+    color: black;
+    padding: 1em;
+    max-height: 100%;
+    min-height: 55em;
+ }
+ footer{
+     background-color: rgb(173, 123, 57);
+     color: black;
+    min-height: 3em;
+    max-height: 100%;
+    padding: 1em;
+ }
+
+ #popup{
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     background-color: rgba(0,0,0,0.7);
+ }
+
+ #fechar{
+     position: absolute;
+     right: 80px;
+     top:5px;
+     width: 30px;
+     height: 30px;
+     color: antiquewhite;
+     font-size: 35px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     cursor: pointer;
+ }
+ #quadro{
+     width: 20%;
+     margin: 16% auto;
+     text-align: center;
+     background-color: white;
+     padding: 25px;
+     border-radius: 15px;
+
+ }
+#popup input{
+width: 100%;
+padding: 2%;
+margin-bottom: 3%;
+}
+#quadro a{
+    text-decoration: none;
+}
+#quadro a:hover{
+    text-decoration: underline;
+
+}
+#msg{
+    color:brown;
+    display: none;
 }
