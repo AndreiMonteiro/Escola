@@ -115,4 +115,15 @@ ul li a{
 img{
     width: 100%;
 }
+.inicio{
+    float: left;
+    width: 50%;
+    margin-left: 0.5%;
+}
+.oteo p {
+    float: left;
+    margin-right: 10%;
+    height: 70%;
+    
+}
 
