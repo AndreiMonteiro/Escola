@@ -126,4 +126,9 @@ img{
     height: 70%;
     
 }
+#miniaturas{
+    width: 110%;
+    margin: auto;
+    margin-left: -10%;
+}
 
